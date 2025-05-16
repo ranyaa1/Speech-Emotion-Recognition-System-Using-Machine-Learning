@@ -57,7 +57,7 @@ Metrics used:
 | Model              | Accuracy |
 |-------------------|----------|
 | Support Vector Machine (SVM) | **97%**     |
-| Random Forest (RF)          | **90%**     |
+| Random Forest (RF)          | **94%**     |
 
 > Results may vary depending on the dataset and preprocessing steps.
 
