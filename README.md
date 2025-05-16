@@ -1,0 +1,71 @@
+# 🎧 Vocal Emotion Recognition with SVM & Random Forest
+
+This project focuses on classifying human emotions from speech using audio features and machine learning models. It leverages **Support Vector Machines (SVM)** and **Random Forest (RF)** to analyze and predict emotions from `.wav` audio files.
+
+---
+
+## 📁 Dataset
+
+Audio files (.wav) are used to represent different emotional states (e.g., happy, sad, angry, neutral). A metadata file or the filename encodes the emotion label.
+
+---
+
+## 🎯 Objective
+
+- Extract relevant audio features from speech.
+- Train and evaluate SVM and Random Forest models.
+- Compare their performance for emotion classification.
+
+---
+
+## 🎵 Feature Extraction
+
+Features extracted from audio files using **Librosa** include:
+
+- MFCCs (Mel-Frequency Cepstral Coefficients)
+- Chroma Frequencies
+- Zero-Crossing Rate
+- Root Mean Square (RMS) Energy
+- Spectral Centroid
+- Mel Spectrogram
+
+All extracted features are compiled into a CSV file for training and evaluation.
+
+---
+
+## 🤖 Models
+
+Two models were implemented and evaluated:
+
+- **SVM (Support Vector Machine)** with RBF kernel
+- **Random Forest Classifier**
+
+Metrics used:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+---
+
+## 📊 Results
+
+| Model        | Accuracy | F1-Score |
+|--------------|----------|----------|
+| SVM          | 92.5%    | 92.4%    |
+| Random Forest| 90.3%    | 90.1%    |
+
+> Results may vary depending on the dataset and preprocessing steps.
+
+
+
+## 🛠️ Tools & Libraries
+
+- Python 3.x
+- Librosa
+- NumPy & Pandas
+- Scikit-learn
+- Matplotlib & Seaborn
+
+---
