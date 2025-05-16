@@ -4,7 +4,7 @@ This project focuses on classifying human emotions from speech using audio featu
 
 ---
 
-## 📁 Dataset
+
 
 ## 📁 Dataset
 
@@ -54,11 +54,10 @@ Metrics used:
 ---
 
 ## 📊 Results
-
-| Model        | Accuracy | F1-Score |
-|--------------|----------|----------|
-| SVM          | 92.5%    | 92.4%    |
-| Random Forest| 90.3%    | 90.1%    |
+| Model              | Accuracy |
+|-------------------|----------|
+| Support Vector Machine (SVM) | **97%**     |
+| Random Forest (RF)          | **90%**     |
 
 > Results may vary depending on the dataset and preprocessing steps.
 
