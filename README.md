@@ -1,4 +1,4 @@
-# 🎧 Vocal Emotion Recognition with SVM & Random Forest
+# 🎧 Vocal Emotion Recognition using machine learning 
 
 This project focuses on classifying human emotions from speech using audio features and machine learning models. It leverages **Support Vector Machines (SVM)** and **Random Forest (RF)** to analyze and predict emotions from `.wav` audio files.
 
