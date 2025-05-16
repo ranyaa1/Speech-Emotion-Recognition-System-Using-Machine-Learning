@@ -6,9 +6,13 @@ This project focuses on classifying human emotions from speech using audio featu
 
 ## 📁 Dataset
 
-Audio files (.wav) are used to represent different emotional states (e.g., happy, sad, angry, neutral). A metadata file or the filename encodes the emotion label.
+## 📁 Dataset
 
----
+We used the **RAVDESS Emotional Speech Audio** dataset available on Kaggle:  
+🔗 [RAVDESS Dataset on Kaggle](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
+
+It includes speech recordings of actors expressing a variety of emotions (happy, sad, angry, neutral, etc.).
+
 
 ## 🎯 Objective
 
